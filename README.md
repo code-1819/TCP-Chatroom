@@ -21,7 +21,7 @@ TCP Chatroom is a simple chat application implemented using Python's socket prog
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your_username/tcp-chatroom.git
+    git clone https://github.com/code-1819/TCP-Chatroom.git
     ```
 
 2. Run the server:
