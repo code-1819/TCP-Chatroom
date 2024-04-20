@@ -9,6 +9,7 @@ TCP Chatroom is a simple chat application implemented using Python's socket prog
 - **Real-time Chat**: Multiple clients can connect to the server and chat with each other in real-time.
 - **Nickname Support**: Clients can choose their nicknames, which are displayed alongside their messages.
 - **Robust Connection Handling**: The server gracefully handles client connections and disconnections.
+- **Admin Commands**: The server now supports admin commands like kicking and banning users.
 
 ## Getting Started
 
@@ -40,6 +41,23 @@ TCP Chatroom is a simple chat application implemented using Python's socket prog
 
 5. Start chatting!
 
+6. If you want to chat as an Admin or use the kicking and banning privileges as an Admin do choose the nickname as ***admin*** and it will prompt you for password.
+
+7. Provide the password. Currently it's ***admin-pass***. Feel free to change it as per your liking!
+
+8. Kicking users as an admin:
+   
+   ```bash
+   /kick <username>
+   ```
+
+10. Banning users as an admin:
+    
+    ```bash
+    /ban <username>
+    ```
+
+    
 ## How It Works
 
 ### Server (`server.py`)
@@ -47,6 +65,7 @@ TCP Chatroom is a simple chat application implemented using Python's socket prog
 1. The server listens for incoming connections on a specified host and port.
 2. Upon connection, it requests the client's nickname and broadcasts it to all connected clients.
 3. It continuously listens for messages from clients and broadcasts them to all other clients.
+4. It supports admin commands like kicking and banning users.
 
 ### Client (`client.py`)
 
