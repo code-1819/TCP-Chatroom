@@ -25,27 +25,33 @@ CLI Chatroom is a simple chat application implemented using Python's socket prog
     git clone https://github.com/code-1819/TCP-Chatroom.git
     ```
 
-2. Run the server:
+2. Navigate to the CLI Chatroom Directory
+
+   ```bash
+   cd CLI Chatroom
+   ```
+
+3. Run the server:
 
     ```bash
     python server.py
     ```
 
-3. Run one or more clients:
+4. Run one or more clients:
 
     ```bash
     python client.py
     ```
 
-4. Choose a nickname for each client when prompted.
+5. Choose a nickname for each client when prompted.
 
-5. Start chatting!
+6. Start chatting!
 
-6. If you want to chat as an Admin or use the kicking and banning privileges as an Admin do choose the nickname as ***admin*** and it will prompt you for password.
+7. If you want to chat as an Admin or use the kicking and banning privileges as an Admin do choose the nickname as ***admin*** and it will prompt you for password.
 
-7. Provide the password. Currently it's ***admin-pass***. Feel free to change it as per your liking!
+8. Provide the password. Currently it's ***admin-pass***. Feel free to change it as per your liking!
 
-8. Kicking users as an admin:
+9. Kicking users as an admin:
    
    ```bash
    /kick <username>
