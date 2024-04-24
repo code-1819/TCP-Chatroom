@@ -1,15 +1,8 @@
 ---
 
-# CLI TCP Chatroom
+# GUI TCP Chatroom
 
-CLI Chatroom is a simple chat application implemented using Python's socket programming. It allows multiple clients to connect to a central server and communicate with each other in real-time.
-
-## Features
-
-- **Real-time Chat**: Multiple clients can connect to the server and chat with each other in real-time.
-- **Nickname Support**: Clients can choose their nicknames, which are displayed alongside their messages.
-- **Robust Connection Handling**: The server gracefully handles client connections and disconnections.
-- **Admin Commands**: The server now supports admin commands like kicking and banning users.
+GUI Chatroom is a simple chat application implemented using Python's socket programming. It allows multiple clients to connect to a central server and communicate with each other in real-time.
 
 ## Getting Started
 
@@ -28,7 +21,7 @@ CLI Chatroom is a simple chat application implemented using Python's socket prog
 2. Navigate to the CLI Chatroom Directory
 
    ```bash
-   cd CLI Chatroom
+   cd GUI Chatroom
    ```
 
 3. Run the server:
@@ -46,22 +39,6 @@ CLI Chatroom is a simple chat application implemented using Python's socket prog
 5. Choose a nickname for each client when prompted.
 
 6. Start chatting!
-
-7. If you want to chat as an Admin or use the kicking and banning privileges as an Admin do choose the nickname as ***admin*** and it will prompt you for password.
-
-8. Provide the password. Currently it's ***admin-pass***. Feel free to change it as per your liking!
-
-9. Kicking users as an admin:
-   
-   ```bash
-   /kick <username>
-   ```
-
-10. Banning users as an admin:
-    
-    ```bash
-    /ban <username>
-    ```
 
     
 ## How It Works
