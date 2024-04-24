@@ -2,7 +2,7 @@
 
 # CLI TCP Chatroom
 
-CLI TCP Chatroom is a simple chat application implemented using Python's socket programming. It allows multiple clients to connect to a central server and communicate with each other in real-time.
+CLI Chatroom is a simple chat application implemented using Python's socket programming. It allows multiple clients to connect to a central server and communicate with each other in real-time.
 
 ## Features
 
