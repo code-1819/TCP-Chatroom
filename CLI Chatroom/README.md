@@ -1,8 +1,8 @@
 ---
 
-# GUI TCP Chatroom
+# CLI TCP Chatroom
 
-GUI Chatroom is a simple chat application implemented using Python's socket programming. It allows multiple clients to connect to a central server and communicate with each other in real-time.
+CLI Chatroom is a simple chat application implemented using Python's socket programming. It allows multiple clients to connect to a central server and communicate with each other in real-time.
 
 ## Getting Started
 
@@ -21,7 +21,7 @@ GUI Chatroom is a simple chat application implemented using Python's socket prog
 2. Navigate to the CLI Chatroom Directory
 
    ```bash
-   cd GUI Chatroom
+   cd CLI Chatroom
    ```
 
 3. Run the server:
